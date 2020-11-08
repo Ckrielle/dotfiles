@@ -1,0 +1,14 @@
+#!bin/sh
+
+# Statusbar loop
+#while true; do
+#	xsetroot -name "$( date +"%F %R" )"
+#	sleep 1m    # Update time every minute
+#done &
+
+# Autostart section
+pcmanfm & 
+setbg &		# Set background with ~/.local/bin/setbg script
+dwmblocks &
+xcompmgr -c &
+xset r rate 300 50

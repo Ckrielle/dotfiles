@@ -1,0 +1,5 @@
+#!/bin/sh
+
+bg="${XDG_DATA_HOME:-$HOME/.local/share/}/bg.jpg"
+#pidof dwm > /dev/null && xdotool key super+F12
+xwallpaper --zoom "$bg"
